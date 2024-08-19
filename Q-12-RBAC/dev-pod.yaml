@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: dev-pod
+  namespace: db
+spec:
+  serviceAccountName: service-account-web
+  containers:
+  - name: dev-container
+    image: nginx:latest
