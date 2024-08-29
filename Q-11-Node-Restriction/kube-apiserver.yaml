@@ -15,9 +15,9 @@ spec:
     - kube-apiserver
     - --advertise-address=172.30.1.2
     - --allow-privileged=true
-    - --authorization-mode=Node,RBAC
+    - --authorization-mode=AlwaysAllow
     - --client-ca-file=/etc/kubernetes/pki/ca.crt
-    - --enable-admission-plugins=NodeRestriction
+    - --enable-admission-plugins=AlwaysAdmit
     - --enable-bootstrap-token-auth=true
     - --etcd-cafile=/etc/kubernetes/pki/etcd/ca.crt
     - --etcd-certfile=/etc/kubernetes/pki/apiserver-etcd-client.crt
