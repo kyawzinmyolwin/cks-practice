@@ -7,4 +7,4 @@ kubectl create role pods-get --verb=create,delete,get --resource=deployments,pod
 kubectl create rolebinding pod-get-binding --role=pods-get --serviceaccount=db:service-account-web -n db
 
 sleep 1
-kubectl apply-f dev-pod.yaml
+kubectl apply -f dev-pod.yaml
