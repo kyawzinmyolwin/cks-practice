@@ -5,3 +5,4 @@ metadata:
   namespace: production
 spec:
   podSelector: {}
+  policyTypes:

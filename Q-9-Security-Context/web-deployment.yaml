@@ -20,6 +20,6 @@ spec:
         command: [ "sh", "-c", "sleep 1h" ]
         securityContext:
           allowPrivilegeEscalation: false
-          runAsUser: 30000
+          runAsUser: 1000
           readOnlyRootFilesystem: true
-          allowPrivilegeEscalation: false
+          allowPrivilegeEscalation: true

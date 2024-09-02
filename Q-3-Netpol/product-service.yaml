@@ -1,11 +1,18 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: product-service
-  namespace: dev-team
+  creationTimestamp: null
   labels:
-    environment: dev-team
+    run: product-service
+    environment: staging
+    app: app1
+  name: product-service
+  namespace: space1
 spec:
   containers:
-  - name: product-service
-    image: nginx:latest
+  - image: nginx
+    name: product-service
+    resources: {}
+  dnsPolicy: ClusterFirst
+  restartPolicy: Always
+status: {}
