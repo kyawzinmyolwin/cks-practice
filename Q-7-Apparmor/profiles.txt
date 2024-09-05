@@ -1,0 +1,3 @@
+docker-default
+snap.lxd.lxc
+/usr/sbin/tcpdump
