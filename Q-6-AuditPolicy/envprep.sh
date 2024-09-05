@@ -1,5 +1,8 @@
 #!/bin/bash
 
-/etc/kubernetes/audit-logs/audit.log
+mkdir /etc/kubernetes/audit-logs/
 
-/etc/kubernetes/audit-policy/policy.yaml
+touch /etc/kubernetes/audit-logs/audit.log
+
+mkdir /etc/kubernetes/audit-policy/
+
