@@ -14,4 +14,3 @@ rules:
   userGroups: ["system:nodes"]
 
 # for everything else don't log anything
-- level: None
