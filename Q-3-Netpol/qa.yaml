@@ -3,4 +3,4 @@ kind: Namespace
 metadata:
   name: qa
   labels:
-    environment: test-10-sep
+    environment: test-10-sep-1
